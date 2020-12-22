@@ -1,0 +1,26 @@
+{
+  "name": "roman-number-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha \"src/**/*.test.js\" --recursive --require @babel/register --file src/mocha-setup.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/register": "^7.12.10",
+    "chai": "^4.2.0",
+    "chai-exclude": "^2.0.2",
+    "mocha": "^8.2.1",
+    "regenerator-runtime": "^0.13.7",
+    "supertest": "^6.0.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.20",
+    "mongodb": "^3.6.3"
+  }
+}
